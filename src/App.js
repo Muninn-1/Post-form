@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import FormMovie from './FormMovie'
+
 import './App.css';
 
 class App extends Component {
@@ -19,6 +21,8 @@ class App extends Component {
           >
             Learn React
           </a>
+        
+          <FormMovie/>
         </header>
       </div>
     );
